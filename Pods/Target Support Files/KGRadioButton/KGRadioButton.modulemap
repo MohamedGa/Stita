@@ -1,0 +1,6 @@
+framework module KGRadioButton {
+  umbrella header "KGRadioButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

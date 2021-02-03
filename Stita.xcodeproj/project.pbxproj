@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9618DF4D248F405900F22D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618DF4C248F405900F22D92 /* AppDelegate.swift */; };
+		9618DF4F248F405900F22D92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618DF4E248F405900F22D92 /* SceneDelegate.swift */; };
+		9618DF51248F405900F22D92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618DF50248F405900F22D92 /* ViewController.swift */; };
+		9618DF54248F405900F22D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9618DF52248F405900F22D92 /* Main.storyboard */; };
+		9618DF56248F405B00F22D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9618DF55248F405B00F22D92 /* Assets.xcassets */; };
+		9618DF59248F405B00F22D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9618DF57248F405B00F22D92 /* LaunchScreen.storyboard */; };
+		9618DF64248F405C00F22D92 /* StitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618DF63248F405C00F22D92 /* StitaTests.swift */; };
+		9618DF6F248F405C00F22D92 /* StitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618DF6E248F405C00F22D92 /* StitaUITests.swift */; };
+		9622472E24C5EB9100990842 /* resturantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9622472D24C5EB9100990842 /* resturantViewController.swift */; };
+		964B982524C72B59003CE2DE /* deliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B982424C72B59003CE2DE /* deliveryViewController.swift */; };
+		964B982724C89426003CE2DE /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B982624C89426003CE2DE /* mapViewController.swift */; };
+		964FE1E824D9BCA600A54327 /* offersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE1E724D9BCA600A54327 /* offersViewController.swift */; };
+		964FE1EA24DB1A9B00A54327 /* offerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE1E924DB1A9B00A54327 /* offerTableViewCell.swift */; };
+		964FE1EC24DB1FAD00A54327 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE1EB24DB1FAD00A54327 /* BasketViewController.swift */; };
+		964FE1EE24DB1FD600A54327 /* myOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964FE1ED24DB1FD600A54327 /* myOrdersViewController.swift */; };
+		965A222E24EC56C5000AFA13 /* foodCatalogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A222D24EC56C5000AFA13 /* foodCatalogCollectionViewCell.swift */; };
+		965DB80C24ACFB9B00AECF4F /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965DB80B24ACFB9B00AECF4F /* loginViewController.swift */; };
+		965EB15424ED74D300D2AA40 /* foodTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965EB15324ED74D300D2AA40 /* foodTypeTableViewCell.swift */; };
+		965F8F5424C4B3410046A63A /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965F8F5324C4B3410046A63A /* homeViewController.swift */; };
+		9660B4AB24A8E22C00C3D7F0 /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9660B4AA24A8E1FB00C3D7F0 /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf */; };
+		9660B4AD24A8E3BB00C3D7F0 /* Droid.Arabic.Kufi_.Bold_DownloadSoftware.iR_.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9660B4AC24A8E3B100C3D7F0 /* Droid.Arabic.Kufi_.Bold_DownloadSoftware.iR_.ttf */; };
+		9660B4AF24A91CA500C3D7F0 /* firstToturialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B4AE24A91CA500C3D7F0 /* firstToturialViewController.swift */; };
+		9660B4B124A92A0100C3D7F0 /* secondToturialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B4B024A92A0100C3D7F0 /* secondToturialViewController.swift */; };
+		9660B4B324A92A1700C3D7F0 /* thirdToturialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B4B224A92A1700C3D7F0 /* thirdToturialViewController.swift */; };
+		9673022624BCA45100902EA0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673022124BCA45100902EA0 /* Service.swift */; };
+		9673022724BCA45100902EA0 /* companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673022224BCA45100902EA0 /* companies.swift */; };
+		9673022824BCA45100902EA0 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673022324BCA45100902EA0 /* models.swift */; };
+		9673022924BCA45100902EA0 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673022424BCA45100902EA0 /* helper.swift */; };
+		9697B29C24CDE32E005A4609 /* moreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B29B24CDE32E005A4609 /* moreViewController.swift */; };
+		9697B29E24CDE556005A4609 /* moreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B29D24CDE556005A4609 /* moreTableViewCell.swift */; };
+		96ACC67124BA25F400E5D006 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACC67024BA25F400E5D006 /* registerViewController.swift */; };
+		96ACC67324BA368100E5D006 /* smsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACC67224BA368100E5D006 /* smsViewController.swift */; };
+		96ACC67524BB41BD00E5D006 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACC67424BB41BD00E5D006 /* AlertManager.swift */; };
+		96ACC67824BB595500E5D006 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACC67724BB595500E5D006 /* API.swift */; };
+		96BF4D6425C057FA008E18C5 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF4D6325C057FA008E18C5 /* MenuCollectionViewCell.swift */; };
+		96DC5A8824E2FF80002F86A9 /* acceptOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC5A8724E2FF80002F86A9 /* acceptOrderViewController.swift */; };
+		96DC5A8A24E3026A002F86A9 /* paymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC5A8924E3026A002F86A9 /* paymentViewController.swift */; };
+		E0D9E432D757F6C067C31545 /* Pods_Stita.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F3230513BEBD487978168 /* Pods_Stita.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9618DF60248F405C00F22D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9618DF41248F405900F22D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9618DF48248F405900F22D92;
+			remoteInfo = Stita;
+		};
+		9618DF6B248F405C00F22D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9618DF41248F405900F22D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9618DF48248F405900F22D92;
+			remoteInfo = Stita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06CA1225DF81826B2ACDBB9B /* Pods-Stita.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stita.release.xcconfig"; path = "Target Support Files/Pods-Stita/Pods-Stita.release.xcconfig"; sourceTree = "<group>"; };
+		3A8F3230513BEBD487978168 /* Pods_Stita.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stita.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		793FC1653DDB6148AD5D62F1 /* Pods-Stita.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stita.debug.xcconfig"; path = "Target Support Files/Pods-Stita/Pods-Stita.debug.xcconfig"; sourceTree = "<group>"; };
+		9618DF49248F405900F22D92 /* Stita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9618DF4C248F405900F22D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9618DF4E248F405900F22D92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9618DF50248F405900F22D92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9618DF53248F405900F22D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9618DF55248F405B00F22D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9618DF58248F405B00F22D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9618DF5A248F405B00F22D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9618DF5F248F405C00F22D92 /* StitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9618DF63248F405C00F22D92 /* StitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StitaTests.swift; sourceTree = "<group>"; };
+		9618DF65248F405C00F22D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9618DF6A248F405C00F22D92 /* StitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9618DF6E248F405C00F22D92 /* StitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StitaUITests.swift; sourceTree = "<group>"; };
+		9618DF70248F405C00F22D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9622472D24C5EB9100990842 /* resturantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resturantViewController.swift; sourceTree = "<group>"; };
+		964B982424C72B59003CE2DE /* deliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deliveryViewController.swift; sourceTree = "<group>"; };
+		964B982624C89426003CE2DE /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		964FE1E724D9BCA600A54327 /* offersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offersViewController.swift; sourceTree = "<group>"; };
+		964FE1E924DB1A9B00A54327 /* offerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offerTableViewCell.swift; sourceTree = "<group>"; };
+		964FE1EB24DB1FAD00A54327 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		964FE1ED24DB1FD600A54327 /* myOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myOrdersViewController.swift; sourceTree = "<group>"; };
+		965A222D24EC56C5000AFA13 /* foodCatalogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCatalogCollectionViewCell.swift; sourceTree = "<group>"; };
+		965DB80B24ACFB9B00AECF4F /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		965EB15324ED74D300D2AA40 /* foodTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodTypeTableViewCell.swift; sourceTree = "<group>"; };
+		965F8F5324C4B3410046A63A /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		9660B4AA24A8E1FB00C3D7F0 /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf; sourceTree = "<group>"; };
+		9660B4AC24A8E3B100C3D7F0 /* Droid.Arabic.Kufi_.Bold_DownloadSoftware.iR_.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Droid.Arabic.Kufi_.Bold_DownloadSoftware.iR_.ttf; sourceTree = "<group>"; };
+		9660B4AE24A91CA500C3D7F0 /* firstToturialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstToturialViewController.swift; sourceTree = "<group>"; };
+		9660B4B024A92A0100C3D7F0 /* secondToturialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondToturialViewController.swift; sourceTree = "<group>"; };
+		9660B4B224A92A1700C3D7F0 /* thirdToturialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdToturialViewController.swift; sourceTree = "<group>"; };
+		9673022124BCA45100902EA0 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9673022224BCA45100902EA0 /* companies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = companies.swift; sourceTree = "<group>"; };
+		9673022324BCA45100902EA0 /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		9673022424BCA45100902EA0 /* helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		9697B29B24CDE32E005A4609 /* moreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreViewController.swift; sourceTree = "<group>"; };
+		9697B29D24CDE556005A4609 /* moreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreTableViewCell.swift; sourceTree = "<group>"; };
+		96ACC67024BA25F400E5D006 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		96ACC67224BA368100E5D006 /* smsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smsViewController.swift; sourceTree = "<group>"; };
+		96ACC67424BB41BD00E5D006 /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		96ACC67724BB595500E5D006 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		96BF4D6325C057FA008E18C5 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		96DC5A8724E2FF80002F86A9 /* acceptOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acceptOrderViewController.swift; sourceTree = "<group>"; };
+		96DC5A8924E3026A002F86A9 /* paymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9618DF46248F405900F22D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D9E432D757F6C067C31545 /* Pods_Stita.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9618DF5C248F405C00F22D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9618DF67248F405C00F22D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2472204041953BECD0175A0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				793FC1653DDB6148AD5D62F1 /* Pods-Stita.debug.xcconfig */,
+				06CA1225DF81826B2ACDBB9B /* Pods-Stita.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9618DF40248F405900F22D92 = {
+			isa = PBXGroup;
+			children = (
+				96BF4D6325C057FA008E18C5 /* MenuCollectionViewCell.swift */,
+				965EB15324ED74D300D2AA40 /* foodTypeTableViewCell.swift */,
+				965A222D24EC56C5000AFA13 /* foodCatalogCollectionViewCell.swift */,
+				96DC5A8924E3026A002F86A9 /* paymentViewController.swift */,
+				96DC5A8724E2FF80002F86A9 /* acceptOrderViewController.swift */,
+				964FE1ED24DB1FD600A54327 /* myOrdersViewController.swift */,
+				964FE1EB24DB1FAD00A54327 /* BasketViewController.swift */,
+				964FE1E924DB1A9B00A54327 /* offerTableViewCell.swift */,
+				964FE1E724D9BCA600A54327 /* offersViewController.swift */,
+				9697B29D24CDE556005A4609 /* moreTableViewCell.swift */,
+				9697B29B24CDE32E005A4609 /* moreViewController.swift */,
+				964B982624C89426003CE2DE /* mapViewController.swift */,
+				9673021F24BCA45100902EA0 /* Helper */,
+				96ACC67624BB594300E5D006 /* API */,
+				9618DF4B248F405900F22D92 /* Stita */,
+				9660B4A924A8E1D200C3D7F0 /* Font */,
+				9660B4AA24A8E1FB00C3D7F0 /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf */,
+				9660B4AC24A8E3B100C3D7F0 /* Droid.Arabic.Kufi_.Bold_DownloadSoftware.iR_.ttf */,
+				9618DF62248F405C00F22D92 /* StitaTests */,
+				9618DF6D248F405C00F22D92 /* StitaUITests */,
+				9618DF4A248F405900F22D92 /* Products */,
+				2472204041953BECD0175A0D /* Pods */,
+				A849F4CDDCBBED591865ED81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9618DF4A248F405900F22D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9618DF49248F405900F22D92 /* Stita.app */,
+				9618DF5F248F405C00F22D92 /* StitaTests.xctest */,
+				9618DF6A248F405C00F22D92 /* StitaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9618DF4B248F405900F22D92 /* Stita */ = {
+			isa = PBXGroup;
+			children = (
+				96ACC67424BB41BD00E5D006 /* AlertManager.swift */,
+				9618DF4C248F405900F22D92 /* AppDelegate.swift */,
+				9618DF4E248F405900F22D92 /* SceneDelegate.swift */,
+				9618DF50248F405900F22D92 /* ViewController.swift */,
+				9618DF52248F405900F22D92 /* Main.storyboard */,
+				9618DF55248F405B00F22D92 /* Assets.xcassets */,
+				9618DF57248F405B00F22D92 /* LaunchScreen.storyboard */,
+				9618DF5A248F405B00F22D92 /* Info.plist */,
+				9660B4AE24A91CA500C3D7F0 /* firstToturialViewController.swift */,
+				9660B4B024A92A0100C3D7F0 /* secondToturialViewController.swift */,
+				9660B4B224A92A1700C3D7F0 /* thirdToturialViewController.swift */,
+				96ACC67224BA368100E5D006 /* smsViewController.swift */,
+				965DB80B24ACFB9B00AECF4F /* loginViewController.swift */,
+				96ACC67024BA25F400E5D006 /* registerViewController.swift */,
+				965F8F5324C4B3410046A63A /* homeViewController.swift */,
+				9622472D24C5EB9100990842 /* resturantViewController.swift */,
+				964B982424C72B59003CE2DE /* deliveryViewController.swift */,
+			);
+			path = Stita;
+			sourceTree = "<group>";
+		};
+		9618DF62248F405C00F22D92 /* StitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9618DF63248F405C00F22D92 /* StitaTests.swift */,
+				9618DF65248F405C00F22D92 /* Info.plist */,
+			);
+			path = StitaTests;
+			sourceTree = "<group>";
+		};
+		9618DF6D248F405C00F22D92 /* StitaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9618DF6E248F405C00F22D92 /* StitaUITests.swift */,
+				9618DF70248F405C00F22D92 /* Info.plist */,
+			);
+			path = StitaUITests;
+			sourceTree = "<group>";
+		};
+		9660B4A924A8E1D200C3D7F0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9673021F24BCA45100902EA0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9673022124BCA45100902EA0 /* Service.swift */,
+				9673022224BCA45100902EA0 /* companies.swift */,
+				9673022324BCA45100902EA0 /* models.swift */,
+				9673022424BCA45100902EA0 /* helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		96ACC67624BB594300E5D006 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				96ACC67724BB595500E5D006 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A849F4CDDCBBED591865ED81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A8F3230513BEBD487978168 /* Pods_Stita.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9618DF48248F405900F22D92 /* Stita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9618DF73248F405C00F22D92 /* Build configuration list for PBXNativeTarget "Stita" */;
+			buildPhases = (
+				0ED016D5231CCD9FAD2F64D7 /* [CP] Check Pods Manifest.lock */,
+				9618DF45248F405900F22D92 /* Sources */,
+				9618DF46248F405900F22D92 /* Frameworks */,
+				9618DF47248F405900F22D92 /* Resources */,
+				4813474EEA95BFE123D2F9DA /* [CP] Embed Pods Frameworks */,
+				01950B44F9ABDE7014517C2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stita;
+			productName = Stita;
+			productReference = 9618DF49248F405900F22D92 /* Stita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9618DF5E248F405C00F22D92 /* StitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9618DF76248F405C00F22D92 /* Build configuration list for PBXNativeTarget "StitaTests" */;
+			buildPhases = (
+				9618DF5B248F405C00F22D92 /* Sources */,
+				9618DF5C248F405C00F22D92 /* Frameworks */,
+				9618DF5D248F405C00F22D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9618DF61248F405C00F22D92 /* PBXTargetDependency */,
+			);
+			name = StitaTests;
+			productName = StitaTests;
+			productReference = 9618DF5F248F405C00F22D92 /* StitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9618DF69248F405C00F22D92 /* StitaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9618DF79248F405C00F22D92 /* Build configuration list for PBXNativeTarget "StitaUITests" */;
+			buildPhases = (
+				9618DF66248F405C00F22D92 /* Sources */,
+				9618DF67248F405C00F22D92 /* Frameworks */,
+				9618DF68248F405C00F22D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9618DF6C248F405C00F22D92 /* PBXTargetDependency */,
+			);
+			name = StitaUITests;
+			productName = StitaUITests;
+			productReference = 9618DF6A248F405C00F22D92 /* StitaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9618DF41248F405900F22D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = codelabs;
+				TargetAttributes = {
+					9618DF48248F405900F22D92 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9618DF5E248F405C00F22D92 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9618DF48248F405900F22D92;
+					};
+					9618DF69248F405C00F22D92 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9618DF48248F405900F22D92;
+					};
+				};
+			};
+			buildConfigurationList = 9618DF44248F405900F22D92 /* Build configuration list for PBXProject "Stita" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9618DF40248F405900F22D92;
+			productRefGroup = 9618DF4A248F405900F22D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9618DF48248F405900F22D92 /* Stita */,
+				9618DF5E248F405C00F22D92 /* StitaTests */,
+				9618DF69248F405C00F22D92 /* StitaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9618DF47248F405900F22D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9660B4AD24A8E3BB00C3D7F0 /* Droid.Arabic.Kufi_.Bold_DownloadSoftware.iR_.ttf in Resources */,
+				9618DF59248F405B00F22D92 /* LaunchScreen.storyboard in Resources */,
+				9618DF56248F405B00F22D92 /* Assets.xcassets in Resources */,
+				9618DF54248F405900F22D92 /* Main.storyboard in Resources */,
+				9660B4AB24A8E22C00C3D7F0 /* Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9618DF5D248F405C00F22D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9618DF68248F405C00F22D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01950B44F9ABDE7014517C2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stita/Pods-Stita-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stita/Pods-Stita-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stita/Pods-Stita-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ED016D5231CCD9FAD2F64D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stita-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4813474EEA95BFE123D2F9DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stita/Pods-Stita-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stita/Pods-Stita-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stita/Pods-Stita-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9618DF45248F405900F22D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B982724C89426003CE2DE /* mapViewController.swift in Sources */,
+				9673022724BCA45100902EA0 /* companies.swift in Sources */,
+				9673022624BCA45100902EA0 /* Service.swift in Sources */,
+				96DC5A8A24E3026A002F86A9 /* paymentViewController.swift in Sources */,
+				96ACC67824BB595500E5D006 /* API.swift in Sources */,
+				965DB80C24ACFB9B00AECF4F /* loginViewController.swift in Sources */,
+				9660B4B324A92A1700C3D7F0 /* thirdToturialViewController.swift in Sources */,
+				964FE1EC24DB1FAD00A54327 /* BasketViewController.swift in Sources */,
+				96DC5A8824E2FF80002F86A9 /* acceptOrderViewController.swift in Sources */,
+				96ACC67524BB41BD00E5D006 /* AlertManager.swift in Sources */,
+				964FE1EA24DB1A9B00A54327 /* offerTableViewCell.swift in Sources */,
+				965EB15424ED74D300D2AA40 /* foodTypeTableViewCell.swift in Sources */,
+				964B982524C72B59003CE2DE /* deliveryViewController.swift in Sources */,
+				9673022924BCA45100902EA0 /* helper.swift in Sources */,
+				9618DF51248F405900F22D92 /* ViewController.swift in Sources */,
+				96ACC67124BA25F400E5D006 /* registerViewController.swift in Sources */,
+				9660B4B124A92A0100C3D7F0 /* secondToturialViewController.swift in Sources */,
+				965A222E24EC56C5000AFA13 /* foodCatalogCollectionViewCell.swift in Sources */,
+				9673022824BCA45100902EA0 /* models.swift in Sources */,
+				964FE1E824D9BCA600A54327 /* offersViewController.swift in Sources */,
+				9697B29C24CDE32E005A4609 /* moreViewController.swift in Sources */,
+				9697B29E24CDE556005A4609 /* moreTableViewCell.swift in Sources */,
+				965F8F5424C4B3410046A63A /* homeViewController.swift in Sources */,
+				9660B4AF24A91CA500C3D7F0 /* firstToturialViewController.swift in Sources */,
+				9618DF4D248F405900F22D92 /* AppDelegate.swift in Sources */,
+				9618DF4F248F405900F22D92 /* SceneDelegate.swift in Sources */,
+				964FE1EE24DB1FD600A54327 /* myOrdersViewController.swift in Sources */,
+				96ACC67324BA368100E5D006 /* smsViewController.swift in Sources */,
+				9622472E24C5EB9100990842 /* resturantViewController.swift in Sources */,
+				96BF4D6425C057FA008E18C5 /* MenuCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9618DF5B248F405C00F22D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9618DF64248F405C00F22D92 /* StitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9618DF66248F405C00F22D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9618DF6F248F405C00F22D92 /* StitaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9618DF61248F405C00F22D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9618DF48248F405900F22D92 /* Stita */;
+			targetProxy = 9618DF60248F405C00F22D92 /* PBXContainerItemProxy */;
+		};
+		9618DF6C248F405C00F22D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9618DF48248F405900F22D92 /* Stita */;
+			targetProxy = 9618DF6B248F405C00F22D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9618DF52248F405900F22D92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9618DF53248F405900F22D92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9618DF57248F405B00F22D92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9618DF58248F405B00F22D92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9618DF71248F405C00F22D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9618DF72248F405C00F22D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9618DF74248F405C00F22D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793FC1653DDB6148AD5D62F1 /* Pods-Stita.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V8T3L6X7Y;
+				INFOPLIST_FILE = Stita/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.codelabs.Stita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9618DF75248F405C00F22D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CA1225DF81826B2ACDBB9B /* Pods-Stita.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V8T3L6X7Y;
+				INFOPLIST_FILE = Stita/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.codelabs.Stita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9618DF77248F405C00F22D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V8T3L6X7Y;
+				INFOPLIST_FILE = StitaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.codelabs.StitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stita.app/Stita";
+			};
+			name = Debug;
+		};
+		9618DF78248F405C00F22D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V8T3L6X7Y;
+				INFOPLIST_FILE = StitaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.codelabs.StitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stita.app/Stita";
+			};
+			name = Release;
+		};
+		9618DF7A248F405C00F22D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V8T3L6X7Y;
+				INFOPLIST_FILE = StitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.codelabs.StitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stita;
+			};
+			name = Debug;
+		};
+		9618DF7B248F405C00F22D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V8T3L6X7Y;
+				INFOPLIST_FILE = StitaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Com.codelabs.StitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9618DF44248F405900F22D92 /* Build configuration list for PBXProject "Stita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9618DF71248F405C00F22D92 /* Debug */,
+				9618DF72248F405C00F22D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9618DF73248F405C00F22D92 /* Build configuration list for PBXNativeTarget "Stita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9618DF74248F405C00F22D92 /* Debug */,
+				9618DF75248F405C00F22D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9618DF76248F405C00F22D92 /* Build configuration list for PBXNativeTarget "StitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9618DF77248F405C00F22D92 /* Debug */,
+				9618DF78248F405C00F22D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9618DF79248F405C00F22D92 /* Build configuration list for PBXNativeTarget "StitaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9618DF7A248F405C00F22D92 /* Debug */,
+				9618DF7B248F405C00F22D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9618DF41248F405900F22D92 /* Project object */;
+}

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Stita/Pods-Stita-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/KGRadioButton/KGRadioButton.framework
+${BUILT_PRODUCTS_DIR}/StepIndicator/StepIndicator.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
